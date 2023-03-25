@@ -1,0 +1,63 @@
+.space-between .description{
+  margin: 0;
+}
+
+.features-cards{
+display: grid;
+grid-template-columns: repeat(3,1fr);
+gap: 4.8rem;
+}
+
+.feature-card{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+  box-shadow: 0 10px 5px #333;
+  transition: all 0.3s;
+
+  padding: 6.0rem 4rem;
+  border: 2px solid #eee;
+  border-radius: 9px;
+}
+
+.feature-card:hover{
+  color: #ff3f66 ;
+  box-shadow: 0 0 10px #ff3f66;
+  background-color: #f2f2f2;
+}
+
+.feature-icon {
+  width: 2.0rem;
+  height: 2.0rem; 
+  /* display: flex; */
+  /* align-items: center; */
+
+  color: #fff;
+  padding: 2rem;
+  border-radius: 50%;
+  background-color: #31adfc;
+  margin-bottom: 2.4rem;
+}
+
+.house{
+  background-color:#ea4e89;
+}
+
+.chain{
+  background-color: #397aff;
+}
+
+.lock{
+  background-color:#3db195;
+}
+
+.gear{
+  width:6rem;
+  height: auto;
+  background-color: #879df2;
+}
+
+.notification{
+  background-color:#f67943;
+}

@@ -1,0 +1,148 @@
+.footer {
+  padding: 4.8rem 0;
+}
+
+.footer .container {
+  padding-bottom: 2.8rem ;
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr 1fr 1.5fr;
+  grid-gap: 4rem;
+  padding-bottom: 12rem;
+  border-bottom: 2px solid #ddd;
+}
+
+.logo-col {
+  display: flex;
+  flex-direction: column;
+  gap: 2.6rem;
+}
+
+.contact-col {
+  justify-self: end;
+}
+
+.footer-description {
+  font-size: 1.8rem;
+  color: #555;
+  line-height: 1.2;
+}
+
+.social-links {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+
+  list-style: none;
+}
+
+.social-link:hover {
+  transform: scale(1.1);
+}
+
+.social-logo {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 8px;
+  color: #333;
+  background-color: #fff;
+  padding: 0.8rem;
+}
+
+.footer-title {
+  font-size: 2.4rem;
+  font-weight: 600;
+  margin-bottom: 2.4rem;
+}
+
+.footer-links {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+
+  list-style: none;
+}
+
+.footer-link {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+.footer-link a:link,
+.footer-link a:visited {
+  color: #555;
+  font-size: 1.8rem;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.footer-link a:hover,
+.footer-link a:active {
+  color: #ff3f66;
+}
+
+.contact-icon {
+  width: 2.4rem;
+  height: 2.4rem;
+  color: #5087f9;
+}
+
+.address {
+  color: #555;
+  font-style: normal;
+}
+
+.footer-bottom-container {
+  max-width: 130rem;
+  margin: 0 auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 2.4rem 3rem;
+}
+
+.stores {
+  display: flex;
+  gap: 1.8rem;
+
+  list-style: none;
+}
+.store-link a {
+  display: flex;
+  align-items: center;
+  /* gap: 1rem; */
+  font-size: 1.8rem;
+  text-decoration: none;
+  color: #333;
+  box-shadow: 0 0 3px rgb(255, 255, 255);
+  background-color: #fff;
+  padding: 1.2rem 2.4rem;
+  border-radius: 6px;
+  transition: all 0.3s;
+}
+
+.small-store-logo {
+  width: 2.4rem;
+  height: 2.4rem;
+  margin-right: 1rem;
+}
+
+.store-link a:hover {
+  color: #fff;
+  background-color: #333;
+}
+
+.playstore-link a {
+  background-color: #eef1f6;
+  box-shadow: 0 0 3px rgb(195, 195, 195);
+}
+
+.copyright {
+  font-size: 1.8rem;
+  color: #555;
+}

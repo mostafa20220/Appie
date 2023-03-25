@@ -1,0 +1,145 @@
+
+.icons-cards{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 4.8rem;
+
+  margin: 6.8rem 2rem;
+}
+
+.icon-card{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #fff;
+  border: 2px solid #eee;
+  border-radius: 9px;
+
+  box-shadow: 0 20px 5px #333;
+  transition: all 0.3s;
+
+  padding: 4rem;
+}
+
+.icon-card:hover{
+  color: #ff3f66 ;
+  box-shadow: 0 0 10px #ff3f66;
+  background-color: #eef1f6;
+}
+
+
+.gallery{
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  align-items: center;
+  justify-items: center;
+  gap: 3.2rem;
+}
+
+.videos-thumbnails{
+  display: flex;
+  align-items: center;
+  gap: 3.6rem;
+
+  margin-bottom: 2.8rem;
+}
+
+.video-thumbnail{
+  max-width: 100%;
+  flex: 1;
+}
+
+.video-and-icon{
+  position: relative;
+  max-width: 100%;
+  flex: 3;
+
+  display: flex;
+}
+
+.video-icon{
+  cursor: pointer;
+  
+  width: 10rem;
+  height: 10rem;
+  
+  /* background-color: #eee; */
+  /* padding: 0.1rem; */
+  color: #eee;
+  border: 1px solid #eee;
+  border-radius: 50%;
+  transition: all 0.3s;
+
+  position: absolute;
+  right: 50%;
+  bottom: 50%;
+  transform: translate(50%,50%);
+}
+
+.video-icon:hover{
+  color: #ff3f66;
+  border: 1px solid #ff3f66;
+}
+
+.videos-text .description{
+  /* max-width: 70rem; */
+  line-height: 1.4;
+}
+
+.videos-text{
+  width: 90%;
+}
+
+.video-btn.ctl-btn{
+  width: auto;
+  height: auto;
+  border-radius: 30px;
+  padding: 1.6rem 3.2rem;
+  font-weight: 700;
+}
+
+
+.videos-btns{
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+
+  align-self: start;
+  justify-self: end;
+}
+
+.video-btn{
+display: flex;
+align-items: center;
+justify-content: center;
+
+text-decoration: none;
+color: #333;
+background-color: #fff;
+
+border: 3px solid #ccc;
+border-radius: 50%;
+
+width: 6rem;
+height: 6rem;
+
+font-weight: 500;
+font-size: 1.6rem;
+transition: all 0.3s;
+cursor: pointer;
+}
+
+.video-btn:hover{
+  color: #fff;
+  background-color: #ff3f66;
+}
+
+.video-btn .arrow-icon{
+  /* color: #333; */
+  width: 2rem;
+  height: 2rem;
+}

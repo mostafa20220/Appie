@@ -1,0 +1,56 @@
+.section-sponsers{
+  padding: 0 0 8rem;
+}
+
+.sponsers-intro {
+  /* justify-content: center;*/
+  text-align: center;
+}
+
+.sponsers-cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 4rem;
+
+  padding: 0px 10rem;
+
+  /* max-width: 80%; */
+}
+
+.first-row,
+.second-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 4rem;
+}
+
+.sponser-card {
+  width: auto;
+  height: auto;
+  padding: 3.8rem;
+  background-color: #fff;
+  box-shadow: 0 10px 5px #333;
+  transition: all 0.3s;
+  cursor: pointer;
+
+  /* 
+  width: auto;
+  height: auto;
+  padding: 3.8rem;
+  background-color: #fff;
+  box-shadow: 0px 0px 10px #292928;
+  transition: all 0.3s;
+  */
+
+}
+
+.sponser-card:hover {
+  color: #ff3f66;
+  box-shadow: 0 0 20px #eef1f6;
+  background-color: #fff;
+  transform: scale(1.1);
+}

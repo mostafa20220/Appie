@@ -1,0 +1,153 @@
+.subscription-type {
+  width: 21rem;
+  justify-content: center;
+  margin: 0 auto;
+  margin-bottom: 3.6rem;
+  padding: 0.3rem;
+  border: 3px solid #eee;
+  border-radius: 25px;
+  border-collapse: collapse;
+  gap: 0.2rem;
+}
+
+.monthly:link,
+.yearly:link {
+  border: none;
+}
+
+.btn.selected:link,
+.btn.selected:visited {
+  background-color: #ff3f66;
+  color: #fff;
+  transition: all 0.3s;
+}
+
+.btn.selected:hover,
+.btn.selected:active {
+  background-color: #e6415f;
+}
+
+.pricing-card {
+  padding: 3.8rem 4.2rem;
+  border-radius: 8px;
+  border: 2px solid #eee;
+  transition: all 0.3s;
+}
+
+.pricing-card.popular-plan {
+  border-top: 3px solid #ff3f66;
+  box-shadow: 0 0.5rem 5rem rgba(0, 0, 0, 0.1);
+  position: relative;
+  overflow: hidden;
+}
+
+.pricing-card.popular-plan::after {
+  content: "Most Popular";
+  position: absolute;
+  top: 1.8rem;
+  right: -1rem;
+  background-color: #2a6df5;
+  color: #fff;
+  padding: 0.5rem 2.8rem 0.5rem 1.8rem;
+  border-radius: 20px;
+  font-size: 1.4rem;
+  font-weight: 600;
+
+}
+
+.popular-plan .btn.plan-btn:link,
+.popular-plan .btn.plan-btn:visited {
+  color: #fff;
+  background-color: #ff3f66;
+  box-shadow: none;
+  border: none;
+  padding: 1.6rem 3.2rem;
+  transition: all 0.3s;
+}
+
+.popular-plan .btn.plan-btn:hover,
+.popular-plan .btn.plan-btn:active {
+  background-color: #e6415f;
+  box-shadow: 0 0 3px rgb(195, 195, 195);
+}
+
+.plan-name {
+  font-size: 2.2rem;
+  margin-bottom: 1.5rem;
+  font-weight: 500;
+}
+
+.plan-text {
+  margin-bottom: 0.8rem;
+}
+
+.dollar-sign {
+  align-self: flex-start;
+  font-size: 2.4rem;
+  margin: 0.8rem 0.5rem 0 0;
+  color: #333;
+}
+
+.plan-price {
+  font-size: 4.8rem;
+  height: max-content;
+  font-weight: 700;
+  margin: 0;
+}
+
+.per-month {
+  align-self: flex-end;
+  color: #6f6f6f;
+  margin: 0 0 0.8rem 0;
+}
+
+.plan-description {
+  color: #6f6f6f;
+  padding-bottom: 3rem;
+  border-bottom: 1px solid #eee;
+}
+
+.plan-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 3.6rem;
+  padding-top: 3rem;
+}
+
+.plan-list-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.plan-icon {
+  display: inline-block;
+  width: 2rem;
+  height: 2rem;
+  font-weight: 600;
+  color: #7ba4f8;
+  background-color: #eef4fe;
+  border-radius: 50%;
+  padding: 0.5rem;
+}
+
+.green-icon.plan-icon{
+  color: #68d290;
+  background-color: #effaf2;
+}
+
+.plan-btn {
+  display: inline-block;
+  width: auto;
+  height: auto;
+  box-shadow: 0 0 3px rgb(195, 195, 195);
+  border-radius: 30px;
+  padding: 1.6rem 3.2rem;
+  font-weight: 500;
+  color: #333;
+  transition: all 0.3s;
+  cursor: pointer;
+}

@@ -1,0 +1,78 @@
+.section-img.hero-img{
+  flex:1.8
+}
+
+.hero-title{
+  font-size: 6.2rem;
+  margin-bottom: 2rem;
+}
+
+.hero-title span{
+  font-weight: 700;
+}
+
+.hero-description{
+  font-size:1.8rem ;
+  margin-bottom: 4rem;
+}
+
+.mail-box{
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* gap: 2rem; */
+
+  width: 40rem;
+  padding: 2.0rem 1.8rem;
+  font-size: 1.6rem;
+  color: #555;
+  background-color: #fff;
+  border: none;
+  border-radius: 30px;
+  box-shadow: -3px 0 0 #ff3f66, 0 20px 10px rgba(0, 0, 0, 0.1);
+  
+  margin-bottom: 4rem;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.mail-box:hover{
+  box-shadow: 0 0 3px #ff3f66;
+  background-color: #eef1f6;
+}
+
+.mail-box .primary-color{
+  width: 1.8rem;
+  height: auto;
+}
+
+.testimonials{
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.testimonials-faces{
+  display: flex;
+  
+}
+
+.customer-photo{
+  height: 5.5rem;
+  border-radius: 50%;
+  margin-right: -2.5rem;
+  border: 4px solid  #fff;
+}
+.customer-photo:last-child{
+  margin: 0;
+}
+
+.testimonials-feedback span{
+  display: block;
+  font-size: 2.8rem;
+  font-weight: 700;
+}
+  .testimonials-feedback{
+  font-size: 1.4rem;
+  color: #333;
+}
