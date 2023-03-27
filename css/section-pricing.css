@@ -1,5 +1,5 @@
 .subscription-type {
-  width: 21rem;
+  width: max-content;
   justify-content: center;
   margin: 0 auto;
   margin-bottom: 3.6rem;
@@ -7,6 +7,8 @@
   border: 3px solid #eee;
   border-radius: 25px;
   border-collapse: collapse;
+  display: flex;
+  align-items: center;
   gap: 0.2rem;
 }
 
@@ -79,6 +81,8 @@
 
 .plan-text {
   margin-bottom: 0.8rem;
+  display: flex;
+  align-items: center;
 }
 
 .dollar-sign {

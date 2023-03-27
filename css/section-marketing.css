@@ -1,3 +1,19 @@
+.section-marketing .section-content{
+  overflow: hidden;
+}
+
+.img-box{
+  flex: 1;
+  align-self: flex-start;
+  position: relative;
+}
+
+.img-box .section-img{
+  width: 100%;
+  position: absolute;
+  top: 0;
+  transform: translate(0, -10%);
+}
 
 .features-list{
   list-style: none;
