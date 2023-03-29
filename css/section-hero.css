@@ -1,5 +1,6 @@
 .section-img.hero-img{
-  flex:1.8
+  flex:1.8;
+  width:60%;
 }
 
 .hero-title{
