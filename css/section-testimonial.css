@@ -10,7 +10,7 @@
   border-radius: 8px;
   border: 2px solid #eee;
   transition: all 0.3s;
-  background-image: url(/imgs/testimonial-bg.webp);
+  background-image: url(../imgs/testimonial-bg.webp);
   padding: 14.2rem 16.6rem;
 }
 
