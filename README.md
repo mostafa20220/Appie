@@ -1,1 +1,1 @@
-# appie-project
+# Appie Landing Page
